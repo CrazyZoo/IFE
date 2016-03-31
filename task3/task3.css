@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 1em helvetical,arial,sans-serif;
+}
+#main_wrapper{
+	min-width: 600px;
+	max-width: 1100px;
+    margin: 0 auto;
+	background-color: #eee;
+}
+#threecolwrap{
+	float: left;
+	width: 100%;
+	background-color: #eee;
+	padding: 20px 20px 20px 0;
+}
+#twocolwrap{
+	float: left;
+	width: 100%;
+	margin-right: -180px;/*把右栏拉到区块外边距腾出的位置上*/
+	background-color: #eee;
+	padding: 20px 0 20px 20px;
+} 
+nav{
+    float: left;
+    width: 178px;
+    background-color: #eee;
+    padding: 20px;
+    border: solid 1px #999;
+}
+nav>*{
+	margin:0 10px;
+}
+nav>img{
+	float: left;
+} 
+nav>h3{
+	width: 45px;
+	float: left;
+}
+article{
+	width: auto;
+	margin-left: 240px;
+	margin-right: 180px;/*在流动居中的栏右侧腾出空间*/
+	background-color: #eee;
+	padding: 20px;
+	border: solid 1px #999;
+}
+article>*{
+	margin: 0px;
+} /*让子元素与栏边界保持一定距离*/
+article>h3{
+	margin-bottom: 10px;
+}
+aside{
+	float: left;
+	width: 98px;
+	background-color: #eee;
+	border: 1px solid #999;
+	padding: 20px;
+	margin: 20px 0 0 20px;
+}
+aside>*{
+    margin: 0 10px;
+} /*让子元素与栏边界保持一定距离*/
+aside>img{
+	display:block;
+	margin-bottom: 20px;
+}
